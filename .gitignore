@@ -2,3 +2,7 @@
 /build
 /src/CMakeFiles
 /cmake
+/jetbrains
+/.vscode
+
+/.idea

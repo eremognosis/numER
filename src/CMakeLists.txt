@@ -4,6 +4,7 @@ add_library(${PROJECT_NAME} SHARED
     broadcasting.c
     ops.c
         ../include/numER/array.h
+        ../include/numER/broadcasting.h
 )
 
 add_library(${PROJECT_NAME}::${PROJECT_NAME} ALIAS ${PROJECT_NAME})
