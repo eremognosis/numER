@@ -14,6 +14,14 @@
 // Basic Arithmetic (The "I could have done this in Python" section)
 // ============================================================================
 
+
+/**
+ *
+ * @param a First Array
+ * @param b Second Array
+ * @param out Output Array
+ * @return Output array after populating
+ */
 NDArray* nc_add(const NDArray* a, const NDArray* b, NDArray* out);
 NDArray* nc_subtract(const NDArray* a, const NDArray* b, NDArray* out);
 NDArray* nc_multiply(const NDArray* a, const NDArray* b, NDArray* out);
@@ -98,5 +106,4 @@ typedef void (*nc_binary_op)(void* out, const void* a, const void* b, DataType d
  */
 void nc_apply_unary(const NDArray* a, NDArray* out, nc_unary_op op);
 void nc_apply_binary(const NDArray* a, const NDArray* b, NDArray* out, nc_binary_op op);
-
 #endif // OPS_H_
