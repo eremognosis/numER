@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/raj/Codespace/newIdeas/numER/build-tests/cmake_install.cmake",
-		"/home/raj/Codespace/newIdeas/numER/build-tests/src/cmake_install.cmake",
-		"/home/raj/Codespace/newIdeas/numER/build-tests/tests/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

@@ -1,1 +1,0 @@
-/usr/bin/cc -fPIC -shared -Wl,--dependency-file=CMakeFiles/numER.dir/link.d -Wl,-soname,libnumER.so -o libnumER.so CMakeFiles/numER.dir/array.c.o CMakeFiles/numER.dir/iterator.c.o CMakeFiles/numER.dir/broadcasting.c.o CMakeFiles/numER.dir/ops.c.o  -lm

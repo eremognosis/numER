@@ -6,3 +6,6 @@
 /.vscode
 
 /.idea
+
+ /build-tests 
+ /tests/CMakeFiles
